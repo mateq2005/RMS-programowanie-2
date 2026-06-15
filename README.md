@@ -5,13 +5,13 @@
 ---
 
 **Strona:**
-- https://mateq2005.github.io/sieci-komputerowe-i-internet/
+- https://mateq2005.github.io/RMS-programowanie-2/
 
 ---
 
 **Źródła:**
-- https://drive.google.com/drive/folders/19UhrfVj2gpGz0a2lNW5ALjCBjk24LbFd
-- https://ekolos.rms.ovh/s/sieci
+- [https://drive.google.com/drive/folders/19UhrfVj2gpGz0a2lNW5ALjCBjk24LbFd](https://drive.google.com/drive/folders/1yerROT6zXwPBrlvKR06JSgkuICjQeAnU?usp=drive_link)
+- [https://ekolos.rms.ovh/s/programowanie](https://ekolos.rms.ovh/s/programowanie)
 
 ---
 
