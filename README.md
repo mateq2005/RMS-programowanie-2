@@ -10,7 +10,7 @@
 
 **Źródła:**
 - [pytania.zip](/pytania.zip)
-- [E-kolos.pdf](/E-kolos.pdf)
+- [e-Kolos.pdf](/e-Kolos.pdf)
 
 ---
 
