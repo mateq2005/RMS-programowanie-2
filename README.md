@@ -10,7 +10,7 @@
 
 **Źródła:**
 - [pytania.zip](/pytania.zip)
-- [https://ekolos.rms.ovh/s/programowanie](https://ekolos.rms.ovh/s/programowanie)
+- [E-kolos.pdf](/E-kolos.pdf)
 
 ---
 
