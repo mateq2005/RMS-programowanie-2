@@ -9,7 +9,7 @@
 ---
 
 **Źródła:**
-- [https://drive.google.com/drive/folders/19UhrfVj2gpGz0a2lNW5ALjCBjk24LbFd](https://drive.google.com/drive/folders/1yerROT6zXwPBrlvKR06JSgkuICjQeAnU?usp=drive_link)
+- [pytania.zip](/pytania.zip)
 - [https://ekolos.rms.ovh/s/programowanie](https://ekolos.rms.ovh/s/programowanie)
 
 ---
