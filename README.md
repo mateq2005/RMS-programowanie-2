@@ -1,5 +1,4 @@
-# Sieci Komputerowe i Internet
-
+# Programowanie II
 **Autor:** Mateusz Banaszczyk
 
 ---
