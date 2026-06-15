@@ -677,5 +677,30 @@
     "poprawne_odpowiedzi": [
       "Nie"
     ]
+  },
+  {
+    "pytanie": "Jakie funkcje (role) przyjmuje konstruktor?",
+    "odpowiedzi": [
+      "Inicjalizacja pól klasy",
+      "Alokacja zasobów",
+      "Zwalnianie zasobów",
+      "Sprawdzanie poprawności struktury"
+    ],
+    "poprawne_odpowiedzi": [
+      "Inicjalizacja pól klasy",
+      "Alokacja zasobów"
+    ]
+  },
+  {
+    "pytanie": "Jaką kopię wykonuje konstruktor przenoszący?",
+    "odpowiedzi": [
+      "Dokładną głęboką",
+      "Niedokładną płytką",
+      "Przenosi zasoby bez kopiowania (transfer własności)",
+      "Dokładną płytką"
+    ],
+    "poprawne_odpowiedzi": [
+      "Przenosi zasoby bez kopiowania (transfer własności)"
+    ]
   }
 ]
