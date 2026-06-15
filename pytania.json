@@ -1,0 +1,681 @@
+[
+  {
+    "pytanie": "Gdy klasa pochodna jest tworzona z klasy podstawowej z zastosowaniem dziedziczenia chronionego, składowe klasy podstawowej zdefiniowane jako public stają się składowymi klasy pochodnej typu:",
+    "odpowiedzi": [
+      "public",
+      "protected",
+      "nie są dziedziczone",
+      "private"
+    ],
+    "poprawne_odpowiedzi": [
+      "protected"
+    ]
+  },
+  {
+    "pytanie": "Przyjaźń nie jest przechodnia",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Utworzenie obiektu klasy pochodnej powoduje uruchomienie konstruktora klasy bazowej",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Aby ciało metody zostało wstawione bezpośrednio w miejsce jej każdego wywołania należy zadeklarować metodę jako inline",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Funkcje zaprzyjaźnione są elementem klasy",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Brak informacji o typie pól i metod w ramach struktury oznacza, że są one typu:",
+    "odpowiedzi": [
+      "protected",
+      "public",
+      "private"
+    ],
+    "poprawne_odpowiedzi": [
+      "public"
+    ]
+  },
+  {
+    "pytanie": "Następujący konstruktor należący do klasy Bazowa: Bazowa(int x=0, int y=0){} jest konstruktorem:",
+    "odpowiedzi": [
+      "domyślnym",
+      "domniemanym",
+      "parametrycznym",
+      "kopiującym"
+    ],
+    "poprawne_odpowiedzi": [
+      "domyślnym",
+      "parametrycznym"
+    ]
+  },
+  {
+    "pytanie": "Konstruktor, który tworzy nowy obiekt na podstawie innego obiektu takiego samego typu to konstruktor przenoszący",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Czysta funkcja wirtualna jest określana poprzez umieszczenie na końcu jej prototypu w definicji klasy:",
+    "odpowiedzi": [
+      "=delete",
+      "=new",
+      "=0",
+      "=gcnew"
+    ],
+    "poprawne_odpowiedzi": [
+      "=0"
+    ]
+  },
+  {
+    "pytanie": "Wywołanie funkcji określane w czasie wykonywania programu jest nazywane:",
+    "odpowiedzi": [
+      "wiązaniem statycznym",
+      "wiązaniem na stos",
+      "wiązaniem na stertę",
+      "wiązaniem dynamicznym"
+    ],
+    "poprawne_odpowiedzi": [
+      "wiązaniem dynamicznym"
+    ]
+  },
+  {
+    "pytanie": "Odejmowanie jednego wskaźnika od drugiego jest zabronione",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Ten sam operator może być jednocześnie przeciążony w klasie oraz poza klasą (jako funkcja globalna)",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Zapis: Typ operator@(Typ_argumentu) jest charakterystyczny dla przeciążania operatora dwuargumentowego (metoda w klasie).",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Czy poniższy zapis jest prawidłowy?\ntemplate <typename Typ>\nclass Prostokat { Typ a,b; public: Prostokat (const Typ a, const Typ b); };\ntemplate <typename Typ>\nProstokat<Typ>::Prostokat(const Typ a, const Typ b): a(a), b(b) { cout << a*b; }",
+    "odpowiedzi": [
+      "Nie",
+      "Tak"
+    ],
+    "poprawne_odpowiedzi": [
+      "Tak"
+    ]
+  },
+  {
+    "pytanie": "Gdy klasa pochodna jest tworzona z klasy podstawowej z zastosowaniem dziedziczenia chronionego, składowe klasy podstawowej zdefiniowane jako protected stają się składowymi klasy pochodnej typu:",
+    "odpowiedzi": [
+      "nie są dziedziczone",
+      "protected",
+      "public",
+      "private"
+    ],
+    "poprawne_odpowiedzi": [
+      "protected"
+    ]
+  },
+  {
+    "pytanie": "Użycie operatora gcnew:",
+    "odpowiedzi": [
+      "powoduje utworzenie nowego obiektu w przestrzeni zarządzanej przez garbage collector",
+      "jest dokładnym odpowiednikiem operatora new",
+      "powoduje utworzenie nowego obiektu w dowolnym miejscu sterty",
+      "jest charakterystyczne dla C++/CLI"
+    ],
+    "poprawne_odpowiedzi": [
+      "powoduje utworzenie nowego obiektu w przestrzeni zarządzanej przez garbage collector",
+      "jest charakterystyczne dla C++/CLI"
+    ]
+  },
+  {
+    "pytanie": "Następujący zapis \"Klasa* nazwa = new Klasa\" oznacza:",
+    "odpowiedzi": [
+      "utworzenie obiektu bez nazwy",
+      "utworzenie wskaźnika do obiektu",
+      "utworzenie obiektu o nazwie Klasa",
+      "utworzenie obiektu typu wskaźnikowego"
+    ],
+    "poprawne_odpowiedzi": [
+      "utworzenie wskaźnika do obiektu"
+    ]
+  },
+  {
+    "pytanie": "Utworzenie klasy pochodnej z atrybutem public oznacza, że:",
+    "odpowiedzi": [
+      "Metody klasy pochodnej mają dostęp do elementów public klasy bazowej",
+      "Obiekty klasy pochodnej mają dostęp do elementów public klasy bazowej",
+      "Metody i obiekty klasy pochodnej mają dostęp do wszystkich elementów klasy bazowej",
+      "Obiekty klasy pochodnej mają dostęp do elementów protected klasy bazowej"
+    ],
+    "poprawne_odpowiedzi": [
+      "Metody klasy pochodnej mają dostęp do elementów public klasy bazowej",
+      "Obiekty klasy pochodnej mają dostęp do elementów public klasy bazowej"
+    ]
+  },
+  {
+    "pytanie": "Operator new [] można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Zapis: float Srednia5 = Srednia<float>(10, 20.0) jest:",
+    "odpowiedzi": [
+      "domyślnym wyszczególnieniem szablonu",
+      "jawnym wyszczególnieniem szablonu"
+    ],
+    "poprawne_odpowiedzi": [
+      "jawnym wyszczególnieniem szablonu"
+    ]
+  },
+  {
+    "pytanie": "Możliwe jest tworzenie tablic wskaźników",
+    "odpowiedzi": [
+      "Fałsz",
+      "Prawda"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Uchwyt ^:",
+    "odpowiedzi": [
+      "jest charakterystyczny dla natywnego C++",
+      "jest charakterystyczny dla C++/CLI",
+      "poszerza możliwości standardowego wskaźnika",
+      "jest dokładnym odpowiednikiem wskaźnika"
+    ],
+    "poprawne_odpowiedzi": [
+      "jest charakterystyczny dla C++/CLI",
+      "poszerza możliwości standardowego wskaźnika"
+    ]
+  },
+  {
+    "pytanie": "Operator << to operator:",
+    "odpowiedzi": [
+      "który nie może być przeciążany",
+      "dwuargumentowy",
+      "jednoargumentowy",
+      "który może być przeciążany"
+    ],
+    "poprawne_odpowiedzi": [
+      "dwuargumentowy",
+      "który może być przeciążany"
+    ]
+  },
+  {
+    "pytanie": "Możliwe jest automatyczne wyszczególnienie wzorca klasy",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Konstruktor kopiujący, w najbardziej ogólnym przypadku wykonuje kopię:",
+    "odpowiedzi": [
+      "dokładną głęboką",
+      "niedokładną płytką",
+      "niedokładną głęboką",
+      "dokładną płytką"
+    ],
+    "poprawne_odpowiedzi": [
+      "dokładną płytką"
+    ]
+  },
+  {
+    "pytanie": "Brak informacji o typie pól i metod w ramach klasy oznacza, że są one typu:",
+    "odpowiedzi": [
+      "protected",
+      "public",
+      "private"
+    ],
+    "poprawne_odpowiedzi": [
+      "private"
+    ]
+  },
+  {
+    "pytanie": "Do których elementów klasy bazowej ma dostęp metoda klasy pochodnej, która dziedziczy w sposób protected?",
+    "odpowiedzi": [
+      "do elementów Public",
+      "do elementów Protected",
+      "do elementów Private",
+      "do żadnych"
+    ],
+    "poprawne_odpowiedzi": [
+      "do elementów Public",
+      "do elementów Protected"
+    ]
+  },
+  {
+    "pytanie": "Które z poniższych zapisów utworzą nowy obiekt klasy Klasa?",
+    "odpowiedzi": [
+      "Klasa k1;",
+      "Klasa k1();",
+      "Klasa k1 = Klasa();",
+      "Klasa k1 = Klasa;"
+    ],
+    "poprawne_odpowiedzi": [
+      "Klasa k1;",
+      "Klasa k1 = Klasa();"
+    ]
+  },
+  {
+    "pytanie": "Klasa może dziedziczyć z więcej niż jednej klasy bazowej. W takim przypadku mówi się o dziedziczeniu wieloklasowym.",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Ustawienie listy inicjalizującej dla konstruktora klasy pochodnej powoduje:",
+    "odpowiedzi": [
+      "uruchomienie konstruktora parametrycznego klasy bazowej",
+      "uruchomienie konstruktorów domyślnego i parametrycznego klasy bazowej",
+      "blokuje uruchomienie konstruktorów w klasie bazowej",
+      "uruchomienie konstruktora domyślnego klasy bazowej"
+    ],
+    "poprawne_odpowiedzi": [
+      "uruchomienie konstruktora parametrycznego klasy bazowej"
+    ]
+  },
+  {
+    "pytanie": "Konstruktor:",
+    "odpowiedzi": [
+      "to specyficzna forma metody",
+      "jest wywoływany automatycznie w momencie tworzenia każdej zmiennej danego typu obiektowego",
+      "może być wirtualny",
+      "nie jest elementem klasy"
+    ],
+    "poprawne_odpowiedzi": [
+      "to specyficzna forma metody",
+      "jest wywoływany automatycznie w momencie tworzenia każdej zmiennej danego typu obiektowego"
+    ]
+  },
+  {
+    "pytanie": "Funkcje zaprzyjaźnione podlegają dziedziczeniu",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Wykorzystanie operatora new powoduje:",
+    "odpowiedzi": [
+      "dynamiczną alokację pamięci",
+      "skopiowanie obiektu",
+      "utworzenie obiektu na stosie",
+      "utworzenie obiektu na stercie"
+    ],
+    "poprawne_odpowiedzi": [
+      "dynamiczną alokację pamięci",
+      "utworzenie obiektu na stercie"
+    ]
+  },
+  {
+    "pytanie": "Operator :: można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Operatora :: nie można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Można wielokrotnie deklarować zmienną",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Obiekt klasy pochodnej jest również obiektem klasy bazowej",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Czym jest dynamiczny i statyczny typ obiektu w C++ i jak różnią się one w kontekście dziedziczenia i polimorfizmu?",
+    "odpowiedzi": [
+      "Oba typy są określone w czasie wykonywania",
+      "Oba typy są określone w czasie kompilacji",
+      "Statyczny typ obiektu jest określony w czasie kompilacji a dynamiczny w czasie wykonywania",
+      "Dynamiczny typ obiektu jest określony w czasie kompilacji a statyczny w czasie wykonywania"
+    ],
+    "poprawne_odpowiedzi": [
+      "Statyczny typ obiektu jest określony w czasie kompilacji a dynamiczny w czasie wykonywania"
+    ]
+  },
+  {
+    "pytanie": "Klasa zawiera deklarację przyjaźni pewnej funkcji. Tworzymy obiekt tej klasy oraz kopię tego obiektu. Wraz z wykonaniem kopii obiektu tworzona jest kopia funkcji.",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Wskaźnik this zwraca wskaźnik do obiektu, którego metoda odwołała się do niego. Z tego powodu może być wykorzystywany jedynie wewnątrz metod.",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Przedstawiony poniżej konstruktor klasy Koło to konstruktor: Koło() { zmienna1 = 5; zmienna2 = 10; }",
+    "odpowiedzi": [
+      "domniemany",
+      "kopiujący",
+      "parametryczny",
+      "domyślny"
+    ],
+    "poprawne_odpowiedzi": [
+      "domyślny"
+    ]
+  },
+  {
+    "pytanie": "Możliwe jest wydanie polecenia delete, które usunie dynamicznie utworzony obiekt, pod funkcją main",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Utworzenie kopii obiektu zawsze powoduje uruchomienie konstruktora kopiującego.",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Dlaczego destruktory w klasach bazowych powinny być wirtualne, gdy korzystamy z polimorfizmu?",
+    "odpowiedzi": [
+      "Aby zapobiec nadpisaniu destruktora w klasach pochodnych.",
+      "Aby umożliwić przeciążenie operatora new i delete.",
+      "Aby umożliwić kompilatorowi generowanie bardziej efektywnego kodu.",
+      "Aby zapewnić prawidłowe wywołanie destruktora klasy pochodnej, gdy obiekt jest usuwany przez wskaźnik na klasę bazową."
+    ],
+    "poprawne_odpowiedzi": [
+      "Aby zapewnić prawidłowe wywołanie destruktora klasy pochodnej, gdy obiekt jest usuwany przez wskaźnik na klasę bazową."
+    ]
+  },
+  {
+    "pytanie": "Jak polimorfizm wpływa na wydajność programu?",
+    "odpowiedzi": [
+      "Może wprowadzać niewielkie opóźnienia ze względu na dodatkowy koszt wywołań wirtualnych.",
+      "Nie ma wpływu na wydajność programu.",
+      "Powoduje narzut czasowy i pamięciowy.",
+      "Zawsze zwiększa wydajność programu."
+    ],
+    "poprawne_odpowiedzi": [
+      "Może wprowadzać niewielkie opóźnienia ze względu na dodatkowy koszt wywołań wirtualnych.",
+      "Powoduje narzut czasowy i pamięciowy."
+    ]
+  },
+  {
+    "pytanie": "Zdefiniowanie zmiennej jest jednoznaczne z jej zadeklarowaniem",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Operator = można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Deklaracja informuje kompilator, że dana nazwa jest już znana. Pamięć dla obiektu nie zostaje jednak przydzielona",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Aby wykorzystać operatory na obiektach danej klasy, muszą być one przeciążone. Nie dotyczy to operatorów:",
+    "odpowiedzi": [
+      "pobierania adresu (&)",
+      "inkrementacji (++)",
+      "sumowania (+)",
+      "przypisania (=)"
+    ],
+    "poprawne_odpowiedzi": [
+      "pobierania adresu (&)",
+      "przypisania (=)"
+    ]
+  },
+  {
+    "pytanie": "Każda klasa może być klasą bazową",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Obiekt to jedna instancja klasy",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Rolą destruktora może być:",
+    "odpowiedzi": [
+      "Zapisywanie danych",
+      "Sprawdzanie poprawności struktury",
+      "Destruktorom nie przypisuje się żadnej roli",
+      "Zwalnianie zasobów"
+    ],
+    "poprawne_odpowiedzi": [
+      "Zapisywanie danych",
+      "Sprawdzanie poprawności struktury",
+      "Zwalnianie zasobów"
+    ]
+  },
+  {
+    "pytanie": "Wywoływanie funkcji w czasie kompilacji jest nazywane:",
+    "odpowiedzi": [
+      "Wiązaniem statycznym",
+      "Wiązaniem dynamicznym",
+      "Wiązaniem na stertę",
+      "Wiązaniem na stos"
+    ],
+    "poprawne_odpowiedzi": [
+      "Wiązaniem statycznym"
+    ]
+  },
+  {
+    "pytanie": "Operatora -> nie można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Fałsz"
+    ]
+  },
+  {
+    "pytanie": "Operator new[] można przeciążać",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Nazwa tablicy jest stałym wskaźnikiem, który zawsze wskazuje to samo miejsce w pamięci komputera",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Funkcja wzorcowa może być przeciążona przez inną funkcję wzorcową posiadającą taką samą nazwę",
+    "odpowiedzi": [
+      "Prawda",
+      "Fałsz"
+    ],
+    "poprawne_odpowiedzi": [
+      "Prawda"
+    ]
+  },
+  {
+    "pytanie": "Którego operatora się nie przeciąża?",
+    "odpowiedzi": [
+      ".",
+      ".*",
+      "::",
+      "?:"
+    ],
+    "poprawne_odpowiedzi": [
+      ".",
+      ".*",
+      "::",
+      "?:"
+    ]
+  },
+  {
+    "pytanie": "Czy można przeciążyć nieistniejący operator?",
+    "odpowiedzi": [
+      "Tak",
+      "Nie"
+    ],
+    "poprawne_odpowiedzi": [
+      "Nie"
+    ]
+  },
+  {
+    "pytanie": "Co robi słowo kluczowe new?",
+    "odpowiedzi": [
+      "Rezerwuje pamięć dla obiektu",
+      "zwraca niezerowy wskaźnik odpowiedniego typu",
+      "tworzy nową zmienną",
+      "zaczyna nowy plik w cpp"
+    ],
+    "poprawne_odpowiedzi": [
+      "Rezerwuje pamięć dla obiektu",
+      "zwraca niezerowy wskaźnik odpowiedniego typu"
+    ]
+  },
+  {
+    "pytanie": "Czy słowo kluczowe this zwraca obiekt w którym jest to słowo aktualnie użyte?",
+    "odpowiedzi": [
+      "Tak",
+      "Nie"
+    ],
+    "poprawne_odpowiedzi": [
+      "Nie"
+    ]
+  }
+]
