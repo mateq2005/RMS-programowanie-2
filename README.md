@@ -15,3 +15,7 @@
 ---
 
 Baza zawiera 62 pytania.
+
+---
+
+*Zweryfikowane w Claude z użyciem modelu Sonnet 4.6 Max.*
