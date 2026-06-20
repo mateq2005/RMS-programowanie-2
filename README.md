@@ -14,4 +14,4 @@
 
 ---
 
-Baza zawiera 63 pytań.
+Baza zawiera 62 pytania.
